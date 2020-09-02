@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-polyfill-bug",
+  "version": "1.0.0",
+  "author": "Simon Brent",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.11.2",
+    "core-js": "3"
+  }
+}
